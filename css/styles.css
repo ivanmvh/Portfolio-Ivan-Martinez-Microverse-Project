@@ -17,10 +17,10 @@
   --gray2: #262626;
   --white: #f4f5f0;
   --projectPurple: #6070ff;
-  --projPurpleLetsConnect: #7F8CFF;
+  --projPurpleLetsConnect: #7f8Cff;
   --projBackground: var(--white);
-  --projText: #344563; 
-  --projTitleText: #172B4D;
+  --projText: #344563;
+  --projTitleText: #172B4d;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
   margin-left: 24px;
   min-width: 76px;
 }
-  
+
 .logo:hover {
   text-decoration: none !important;
   color: var(--projectPurple);
@@ -64,7 +64,7 @@ nav {
   display: flex !important;
   isolation: isolate;
 }
-  
+
 .menu {
   display: none;
   flex-direction: column;
@@ -78,7 +78,7 @@ nav {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px; 
+  font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.01em;
   margin-top: 20px;
@@ -95,7 +95,7 @@ nav {
   font-weight: 700;
   font-size: 40px;
   line-height: 130%;
-  color: var(--projTitleText); 
+  color: var(--projTitleText);
   text-align: left;
   margin-top: 19px;
 }
@@ -117,7 +117,7 @@ nav {
   flex-direction: column;
   position: relative;
   z-index: 2;
-}  
+}
 
 #tit-port {
   max-width: 60%;
@@ -142,7 +142,7 @@ nav {
 .social-media-icons > * {
   transform: scale(0.75);
 }
-  
+
 .social-media-icons {
   display: flex;
   column-gap: 15px;
@@ -159,7 +159,7 @@ nav {
   width: auto;
   transition: 1s;
 }
-  
+
 .header-banner .social-media-icons {
   margin-top: 10px;
   margin-bottom: 0;
