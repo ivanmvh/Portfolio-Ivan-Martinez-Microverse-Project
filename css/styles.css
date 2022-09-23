@@ -17,10 +17,10 @@
   --gray2: #262626;
   --white: #f4f5f0;
   --projectPurple: #6070ff;
-  --projPurpleLetsConnect: #7f8Cff;
+  --projPurpleLetsConnect: #7f8cff;
   --projBackground: var(--white);
   --projText: #344563;
-  --projTitleText: #172B4d;
+  --projTitleText: #172b4d;
 }
 
 body {
