@@ -10,12 +10,12 @@
 }
 
 :root {
-  --black: #1c1a19;
+  --black: #000;
   --wine: #730d15;
-  --red: #ff6b00;
+  --red: #f00;
   --gray: gray;
   --gray2: #262626;
-  --white: #f4f5f0;
+  --white: #fff;
   --projectPurple: #6070ff;
   --projPurpleLetsConnect: #7f8cff;
   --projBackground: var(--white);
@@ -91,7 +91,7 @@ nav {
 }
 
 .title {
-  font-family: var(--projFont-1);
+  font-family: var(--projFont-1-Pop);
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
