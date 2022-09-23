@@ -21,6 +21,7 @@
   --projBackground: var(--white);
   --projText: #344563;
   --projTitleText: #172b4d;
+  --projFont-1-Pop: 'Poppins', sans-serif;
 }
 
 body {
@@ -30,7 +31,7 @@ body {
 }
 
 .logo {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--projFont-1-Pop);
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -56,11 +57,11 @@ header {
   height: 100px;
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 nav {
-  margin-right: 32px;
+  margin-right: 0;
   display: flex !important;
   isolation: isolate;
 }
@@ -75,7 +76,7 @@ nav {
 
 .parrafo {
   color: var(--projText);
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--projFont-1-Pop);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -90,7 +91,7 @@ nav {
 }
 
 .title {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--projFont-1);
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -130,7 +131,7 @@ nav {
 }
 
 .connect-text {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--projFont-1-Pop);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
