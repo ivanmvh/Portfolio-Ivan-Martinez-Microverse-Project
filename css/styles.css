@@ -204,13 +204,12 @@ ul {
   border: 1px solid white;
   display: flex;
   align-items: center;
-  padding-left: 7%;
   width: 70%;
   background-color: white;
-  padding-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 30px;
-  padding-left: 10px;
+  padding-left: 7%;
+  padding-right: 10px;
   flex-direction: column;
   border-radius: 16px;
   transition: 1s ease;
