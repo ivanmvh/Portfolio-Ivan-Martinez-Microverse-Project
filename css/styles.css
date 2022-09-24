@@ -107,7 +107,6 @@ nav {
 
 .sec-portada {
   background-color: var(--projBackground);
-  /* height: 191vw */;
 }
 
 .title {
@@ -129,7 +128,6 @@ nav {
 .port-contenido {
   width: 100%;
   height: calc(100vh);
-  /* height: auto; */
   background-image: url("../images/first-page-img/first-page-bg-mobile.svg");
   background-repeat: no-repeat;
   border-bottom-left-radius: 60px;
@@ -197,7 +195,6 @@ ul {
 /* Mobile Works Section */
 
 #works {
-  /*width: 100%;*/
   display: grid;
   justify-content: center;
   align-content: center;
@@ -214,7 +211,6 @@ ul {
   border: 1px solid white;
   display: flex;
   align-items: center;
-  /* width: 70%; */
   background-color: white;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -225,7 +221,6 @@ ul {
   transition: 1s ease;
   transition-delay: 0.5s;
   box-shadow: 1px 1px 55px -23px rgba(0, 0, 0, 0.75);
-  /*min-width: 300px; */
 }
 
 .text-content {
@@ -359,9 +354,6 @@ ul {
 #about-sec {
   background-color: white;
   padding-bottom: 60px;
-  /* border-top-left-radius: 60px; */
-  /* position: relative; */
-  /* z-index: 1; */
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 114px;
@@ -466,8 +458,6 @@ ul {
   line-height: 28px;
   /* height: 130px; */
   margin-top: 20px;
-  /* min-width: 300px;
-  max-width: 550px;*/
 }
 
 .contact-header {
@@ -507,8 +497,6 @@ ul {
 
 .form-container button {
   align-self: flex-start;
-  /* margin-left: 10px;
-  margin-top: 10px;*/
   margin: 2% 5%;
   width: 150px;
 }
