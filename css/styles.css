@@ -7,6 +7,7 @@
   --white: #fff;
   --projectPurple: #6070ff;
   --projPurpleLetsConnect: #7f8cff;
+  --projBackgroundBody: #e5e5e5;
   --projBackground: var(--white);
   --projText: #344563;
   --projTitleText: #172b4d;
@@ -20,6 +21,7 @@
   --projectButtonColor: #396df2;
   --languageBoxColor: #f7f7f9;
   --pressedButtonColor: #2230d2;
+  --contactText: #f7f7f9;
 }
 
 *,
@@ -32,7 +34,7 @@
 }
 
 body {
-  background-color: var(--projBackground);
+  background-color: var(--projBackgroundBody);
   width: 100%;
   margin: 0;
   font-family: var(--projFont-1-Pop);
@@ -114,7 +116,8 @@ nav {
 }
 
 #port-without-header {
-  margin-left: 24px;
+  padding-left: 24px;
+  background-color: var(--projBackground);
 }
 
 .port-contenido {
@@ -201,7 +204,7 @@ ul {
   border: 1px solid white;
   display: flex;
   align-items: center;
-  margin-left: 7%;
+  padding-left: 7%;
   width: 70%;
   background-color: white;
   padding: 10px;
@@ -345,12 +348,12 @@ ul {
   border-top-left-radius: 60px;
   position: relative;
   z-index: 1;
-  margin-left: 24px;
+  padding-left: 24px;
 }
 
 .about-me {
   min-width: 10px;
-  max-width: 250px;
+  /* max-width: 250px; */
 }
 
 .languages {
@@ -434,7 +437,8 @@ ul {
 .contact-desc {
   text-align: center;
   color: white;
-  margin: 0 30px;
+  padding: 0 30px;
+  color: var(--contactText);
 }
 
 .contact-desc {
@@ -446,7 +450,7 @@ ul {
   min-width: 300px;
   max-width: 550px;
 }
-
+ 
 .contact-header {
   font-size: 40px;
   font-weight: 700;
@@ -466,7 +470,7 @@ ul {
 
 .form-container textarea,
 .form-container input {
-  width: 80%;
+  width: 90%;
   margin: 2% 10%;
   border-radius: 7px;
   border: none;
@@ -483,7 +487,7 @@ ul {
 
 .form-container button {
   align-self: flex-start;
-  margin-left: 10%;
+  margin-left: 10px;
   margin-top: 10px;
 }
 
@@ -495,6 +499,10 @@ textarea::placeholder {
 .social-media-icons img:hover,
 .social-media-icons i:hover {
   transform: scale(2);
+}
+
+.error {
+  display: none;
 }
 
 /* form section (end) */
