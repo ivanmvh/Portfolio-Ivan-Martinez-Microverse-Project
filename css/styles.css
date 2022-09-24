@@ -207,11 +207,12 @@ ul {
   padding-left: 7%;
   width: 70%;
   background-color: white;
-  padding: 10px;
+  padding-bottom: 10px;
   padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 10px;
   flex-direction: column;
   border-radius: 16px;
-  padding-bottom: 30px;
   transition: 1s ease;
   transition-delay: 0.5s;
   box-shadow: 1px 1px 55px -23px rgba(0, 0, 0, 0.75);
@@ -353,7 +354,6 @@ ul {
 
 .about-me {
   min-width: 10px;
-  /* max-width: 250px; */
 }
 
 .languages {
@@ -436,7 +436,6 @@ ul {
 .contact-header,
 .contact-desc {
   text-align: center;
-  color: white;
   padding: 0 30px;
   color: var(--contactText);
 }
@@ -450,7 +449,7 @@ ul {
   min-width: 300px;
   max-width: 550px;
 }
- 
+
 .contact-header {
   font-size: 40px;
   font-weight: 700;
