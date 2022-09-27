@@ -13,6 +13,7 @@
   --projTitleText: #172b4d;
   --projFont-1-Pop: 'Poppins', sans-serif;
   --projColSubtAbout: --black;
+  --projPlaceHolderColor: #b3bbb5;
 
   /* works variables */
   --worksBold: #344563;
@@ -489,9 +490,13 @@ ul {
   height: 180px;
 }
 
-.text-input,
-.email-input {
-  padding: 10px 0;
+#name,
+#email,
+#message {
+  padding: 15px 38px 15px 16px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
 }
 
 .form-container button {
@@ -500,18 +505,20 @@ ul {
   width: 150px;
 }
 
-input::placeholder,
-textarea::placeholder {
-  padding: 15px 20px;
+#name::placeholder,
+#email::placeholder,
+#message::placeholder {
+  color: var(--projPlaceHolderColor);
+  padding: 15px 38px 15px 16px;
+  font-family: var(--projFont-1-Pop);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .social-media-icons img:hover,
 .social-media-icons i:hover {
   transform: scale(2);
-}
-
-.error {
-  display: none;
 }
 
 /* form section (end) */
