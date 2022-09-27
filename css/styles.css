@@ -497,7 +497,6 @@ ul {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  border: 2px solid red;
 }
 
 .form-container button {
@@ -515,7 +514,6 @@ ul {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  border: 2px solid blue;
 }
 
 .social-media-icons img:hover,
