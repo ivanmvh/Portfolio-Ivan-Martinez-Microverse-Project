@@ -511,6 +511,7 @@ ul {
 #message::placeholder {
   color: var(--projPlaceHolderColor);
   padding: 15px 38px 15px 16px;
+  font-family: var(--projFont-1-Pop);
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
