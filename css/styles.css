@@ -13,7 +13,7 @@
   --projTitleText: #172b4d;
   --projFont-1-Pop: 'Poppins', sans-serif;
   --projColSubtAbout: --black;
-  --projPlaceHolderColor:  #b3bbb5;
+  --projPlaceHolderColor: #b3bbb5;
 
   /* works variables */
   --worksBold: #344563;
@@ -521,10 +521,5 @@ ul {
 .social-media-icons i:hover {
   transform: scale(2);
 }
-
-.error {
-  display: none;
-}
-
 
 /* form section (end) */
