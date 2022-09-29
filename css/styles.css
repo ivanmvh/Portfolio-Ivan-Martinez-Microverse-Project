@@ -33,6 +33,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: var(--projFont-1-Pop);  
 }
 
 html {
@@ -43,7 +44,6 @@ body {
   background-color: var(--projBackgroundBody);
   width: 100%;
   margin: 0;
-  font-family: var(--projFont-1-Pop);
 }
 
 /* Mobile Header Section */
@@ -429,7 +429,7 @@ ul {
 /* form section (init) */
 
 .contact-background {
-  background-color: var(--projectPurple);
+  background-color: var(--projectPurple); 
   background-size: cover;
   border-top-left-radius: 60px;
   padding-top: 20px;
@@ -509,7 +509,7 @@ ul {
 #email::placeholder,
 #message::placeholder {
   color: var(--projPlaceHolderColor);
-  padding: 15px 38px 15px 16px;
+  padding: 15px 38px 15px 1px;
   font-family: var(--projFont-1-Pop);
   font-weight: 400;
   font-size: 15px;
