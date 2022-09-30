@@ -62,6 +62,7 @@ body {
 .logo:hover {
   text-decoration: none !important;
   color: var(--projectPurple);
+  transform: scale(1.5);
 }
 
 .menu-hamburg {
@@ -120,6 +121,10 @@ nav {
   text-align: left;
   margin-top: 19px;
 }
+
+.title:hover {
+  transform: rotate(45deg);
+}  
 
 #port-without-header {
   padding-left: 24px;
