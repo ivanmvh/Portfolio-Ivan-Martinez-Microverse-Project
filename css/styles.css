@@ -360,8 +360,7 @@ ul {
   padding-bottom: 60px;
   padding-left: 24px;
   padding-right: 24px;
-  padding-top: 114px;
-  
+  padding-top: 114px; 
 }
 
 .about-me {
@@ -433,7 +432,7 @@ ul {
 /* form section (init) */
 
 .contact-background {
-  background-color: var(--projectPurple); 
+  background-color: var(--projectPurple);
   background-size: cover;
   border-top-left-radius: 150px;
   padding-top: 20px;
@@ -530,7 +529,6 @@ ul {
 /* DESKTOP VERSION */
 
 @media screen and (min-width: 768px) {
-
   /* header section */
   header {
     width: 100%;
@@ -538,7 +536,6 @@ ul {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
-    margin-top: 0;
     padding-left: 155px;
     padding-right: 155px;
     margin-top: 0;
@@ -584,7 +581,7 @@ ul {
     padding-left: 260px;
     padding-right: 260px;
     padding-bottom: 244px; */
-  
+
     padding-left: 18.47vw;
     padding-right: 18.47vw;
     padding-bottom: 14.94vw;
@@ -615,7 +612,7 @@ ul {
     min-width: 270px;
     font-weight: 400;
     font-size: 20px;
-    line-height: 28px; 
+    line-height: 28px;
   }
 
   /* works section */
@@ -632,7 +629,7 @@ ul {
     padding-left: 24px;
     padding-right: 24px;
   }
-  
+
   .project {
     border: 1px solid white;
     display: flex;
@@ -655,11 +652,11 @@ ul {
     margin: 24px;
     min-width: 400px;
   }
-  
+
   .flex-rev {
     flex-direction: row-reverse;
   }
-  
+
   .text-content {
     justify-content: flex-start;
     margin-left: 27px;
@@ -680,7 +677,7 @@ ul {
     justify-content: flex-start;
     column-gap: 10px;
   }
-  
+
   .project-data .bold {
     font-size: 18px;
     font-weight: 600;
@@ -688,7 +685,7 @@ ul {
     text-align: left;
     color: var(--worksBold);
   }
-  
+
   .project-data p {
     font-size: 18px;
     font-weight: 400;
@@ -699,6 +696,7 @@ ul {
   }
   
   /* about section */
+
   #about-sec {
     display: flex;
     flex-direction: row;
@@ -718,23 +716,15 @@ ul {
     width: 80%;
   }
   
-  .knowlodges-boxes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* min-width: 250px; */
-  }
-  
   #text-ab-me {
     margin-right: 0;
     margin-top: 20px;
-    /*min-width: 270px;*/
     font-weight: 400;
     font-size: 20px;
-    line-height: 28px; 
+    line-height: 28px;
     width: 90%;
   }
-  
+
   .about-knowlodges {
     width: 50%;
   }
@@ -775,7 +765,7 @@ ul {
 
   .knolodgege-box > p {
     margin-left: 15px;
-  }  
+  }
 
   /* contact section */
   #contact {
@@ -807,10 +797,10 @@ ul {
     margin-left: 0;
     margin-right: 0;
   }
-  
+
   .form-container button  {
     align-self: center;
     margin: 2% 0 17% 0;
-    width: 150px;  
-  }  
+    width: 150px; 
+  }
 }
