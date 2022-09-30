@@ -1,0 +1,33 @@
+.logo {
+    margin-left: 0;
+    margin-top: 0;
+    transition: 1s all;
+  }
+  
+  .logo:hover {
+    transform: scale(1.5);
+  }
+  
+  #logo-img:hover {
+    transform: skew(15deg, 15deg);
+    /* transform: scale(0.5); */ 
+  }
+
+  
+  .button-secc:hover {
+    transform: scale(0.5 , 1.5);
+  }
+  
+  .button-secc:onclick {
+    transform: rotate(5deg);
+  }  
+
+
+  .project-button {
+      cursor: pointer;
+    transition: 1s all;
+  }
+  
+  .project-button:hover {
+    transform: rotate(2deg);
+  }
