@@ -26,6 +26,10 @@
   --contactText: #f7f7f9;
 }
 
+* {
+  font-family: var(--projFont-1-Pop);
+}
+
 *,
 *::before,
 *::after {
@@ -33,7 +37,6 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: var(--projFont-1-Pop);  
 }
 
 html {
@@ -377,7 +380,7 @@ ul {
   color: var(--projColSubtAbout);
 }
 
-.languages-section p {
+.knowlodges-section p {
   font-size: 30px;
 }
 
@@ -386,7 +389,7 @@ ul {
   height: 15px;
 }
 
-.languages-section {
+.knowlodges-section {
   margin: 10% 10% 10px 12px;
   display: flex;
   align-items: center;
@@ -400,14 +403,14 @@ ul {
   padding-bottom: 20px;
 }
 
-.languages-boxes {
+.knowlodges-boxes {
   display: flex;
   flex-direction: column;
   justify-content: center;
   min-width: 250px;
 }
 
-.language-box {
+.knowlodge-box {
   display: flex;
   background-color: var(--languageBoxColor);
   margin: 10px 12px;
@@ -415,7 +418,7 @@ ul {
   border-radius: 10px;
 }
 
-.language-box p {
+.knowlodge-box p {
   font-family: var(--projFont-1-Pop);
   font-size: 15px;
   font-weight: 550;
@@ -431,7 +434,7 @@ ul {
 .contact-background {
   background-color: var(--projectPurple); 
   background-size: cover;
-  border-top-left-radius: 60px;
+  border-top-left-radius: 150px;
   padding-top: 20px;
 }
 
@@ -522,3 +525,53 @@ ul {
 }
 
 /* form section (end) */
+
+/* DESKTOP VERSION */
+
+@media screen and (min-width: 768px) {
+
+  /* header section */
+  header {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin-top: 0;
+    padding-left: 155px;
+    padding-right: 155px;
+    margin-top: 0;
+  }
+  
+  .logo {
+    margin-left: 0;
+    min-width: 76px;
+  }
+
+  nav {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+ 
+  #id-menu-hamburger {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .menu-option {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    list-style-type: none;
+    color: var(--projText);
+  }
+}
