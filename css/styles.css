@@ -126,9 +126,9 @@ nav {
 
 #port-without-header {
   padding-left: 24px;
-  1111background-color:    var(--projBackground);
+  background-color: var(--projBackground);
 }
-
+  
 .port-contenido {
   width: 100%;
   height: calc(100vh);
