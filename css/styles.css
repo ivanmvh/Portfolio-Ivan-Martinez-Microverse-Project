@@ -21,7 +21,7 @@
   --gridBackground: #f7f7f9;
   --liButtonBackground: #ebebff;
   --projectButtonColor: #396df2;
-  --languageBoxColor: #f7f7f9;
+  --knowlodgeColor: #f7f7f9;
   --pressedButtonColor: #2230d2;
   --contactText: #f7f7f9;
 }
@@ -215,7 +215,7 @@ ul {
   border: 1px solid white;
   display: flex;
   align-items: center;
-  background-color: white;
+  background-color: var(--projBackgroundBody);
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -310,12 +310,12 @@ ul {
 .resume-btn,
 .contact-btn {
   display: inline-block;
-  width: 100px;
+  width: 110px;
   height: 40px;
   margin-top: 40px;
   border-radius: 8px;
   color: var(--projectButtonColor);
-  background-color: white;
+  background-color: var(--projBackground);
   border: 0.5px solid var(--projectButtonColor);
   transition: 0.6s;
   font-family: var(--projFont-1-Pop);
@@ -334,7 +334,7 @@ ul {
 .resume-btn:disabled,
 .project-btn:disabled,
 .contact-btn:disabled {
-  background-color: white;
+  background-color: var(--projBackground);
   color: #5e6c84;
 }
 
@@ -356,11 +356,12 @@ ul {
 /* about me section (init) */
 
 #about-sec {
-  background-color: white;
+  background-color: var(--projBackground);
   padding-bottom: 60px;
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 114px;
+  
 }
 
 .about-me {
@@ -412,7 +413,7 @@ ul {
 
 .knowlodge-box {
   display: flex;
-  background-color: var(--languageBoxColor);
+  background-color: var(--knowlodgeColor);
   margin: 10px 12px;
   align-items: center;
   border-radius: 10px;
@@ -617,6 +618,86 @@ ul {
     line-height: 28px; 
   }
 
+  /* works section */
+
+  #works {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    row-gap: 140px;
+    background-color: var(--gridBackground);
+    grid-template-columns: auto;
+    padding-top: 0;
+    padding-bottom: 140px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+  .project {
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    background-color: var(--projBackground);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: row;
+    border-radius: 16px;
+    transition: 1s ease;
+    transition-delay: 0.5s;
+    box-shadow: 1px 1px 55px -23px rgba(0, 0, 0, 0.75);
+  }
+
+  .project img {
+    height: auto;
+    width: 50%;
+    margin: 24px;
+    min-width: 400px;
+  }
+  
+  .flex-rev {
+    flex-direction: row-reverse;
+  }
+  
+  .text-content {
+    justify-content: flex-start;
+    margin-left: 27px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    width: 50%;
+  }
+
+  .project-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+  }
+
+  .project-data {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 10px;
+  }
+  
+  .project-data .bold {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: var(--worksBold);
+  }
+  
+  .project-data p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--worksLight);
+    margin-top: 15px;
+  }
+  
   /* about section */
   #about-sec {
     display: flex;
@@ -657,7 +738,45 @@ ul {
   .about-knowlodges {
     width: 50%;
   }
-  
+
+  .knowlodges-section {
+    margin-top: 50px;
+  }
+
+  .knowlodges-boxes {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 100px;
+    flex: 0 0 33%;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  #about .social-media-icons {
+    column-gap: 25px;
+    margin: 23px 30px;
+  }
+
+  .knowlodge-box {
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 0;
+    max-width: 120px;
+    height: 122px;
+    margin-right: 2%;
+  }
+
+  .knowlodge-box img {
+    margin-left: 15px;
+  }
+
+  .knolodgege-box > p {
+    margin-left: 15px;
+  }  
+
   /* contact section */
   #contact {
     background-image: url("../images/contact-img/contact-form-desk@2x.svg");
@@ -676,15 +795,15 @@ ul {
   }
   
   .form-container {
-    padding-right: 34.51vw; /* 497px */
-    padding-left: 34.51vw; /* 497px */
+    padding-right: 33.51vw; /* 497px */
+    padding-left: 33.51vw; /* 497px */
     margin-top: 15px;
   }
   
   #name,
   #email,
   #message {
-    padding: 15px 0px 15px 0px;
+    padding: 15px 38px 15px 16px;
     margin-left: 0;
     margin-right: 0;
   }
