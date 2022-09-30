@@ -229,6 +229,11 @@ ul {
   box-shadow: 1px 1px 55px -23px rgba(0, 0, 0, 0.75);
 }
 
+.project:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
 .text-content {
   display: flex;
   flex-direction: column;
