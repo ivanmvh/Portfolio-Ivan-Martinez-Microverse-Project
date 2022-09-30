@@ -128,7 +128,7 @@ nav {
   padding-left: 24px;
   background-color: var(--projBackground);
 }
-  
+
 .port-contenido {
   width: 100%;
   height: calc(100vh);
@@ -136,7 +136,7 @@ nav {
   background-repeat: no-repeat;
   border-bottom-left-radius: 60px;
   background-position: center;
-  background-size: cover;
+  background-size:      cover;      
   display: flex;
   flex-direction: column;
   position: relative;
