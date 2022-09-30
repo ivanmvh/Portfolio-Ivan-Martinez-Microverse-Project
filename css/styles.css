@@ -526,6 +526,14 @@ ul {
 
 /* form section (end) */
 
+.for-mobile {
+  display: block;
+}
+
+.for-desktop {
+  display: none;
+}
+
 /* DESKTOP VERSION */
 
 @media screen and (min-width: 768px) {
@@ -803,4 +811,12 @@ ul {
     margin: 2% 0 17% 0;
     width: 150px;
   }
+
+  .for-mobile {
+    display: none;
+  }
+  
+  .for-desktop {
+    display: block;
+  }  
 }
