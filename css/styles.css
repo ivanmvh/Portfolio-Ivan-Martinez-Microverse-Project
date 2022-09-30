@@ -124,7 +124,11 @@ nav {
 
 .title:hover {
   transform: rotate(45deg);
+<<<<<<< HEAD
 }
+=======
+}  
+>>>>>>> BR-2-ANIMATIONS-TESTING
 
 #port-without-header {
   padding-left: 24px;
@@ -227,6 +231,11 @@ ul {
   transition: 1s ease;
   transition-delay: 0.5s;
   box-shadow: 1px 1px 55px -23px rgba(0, 0, 0, 0.75);
+}
+
+.project:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .text-content {
