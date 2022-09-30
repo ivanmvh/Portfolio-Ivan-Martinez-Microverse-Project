@@ -656,5 +656,42 @@ ul {
   
   .about-knowlodges {
     width: 50%;
+  }
+  
+  /* contact section */
+  #contact {
+    background-image: url("../images/contact-img/contact-form-desk@2x.svg");
+    padding-top: 142px;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  
+  .contact-desc {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 20px;
+    padding-right: 30.27vw; /* 436px */
+    padding-left: 30.27vw; /* 436px */
+  }
+  
+  .form-container {
+    padding-right: 34.51vw; /* 497px */
+    padding-left: 34.51vw; /* 497px */
+    margin-top: 15px;
+  }
+  
+  #name,
+  #email,
+  #message {
+    padding: 15px 0px 15px 0px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .form-container button  {
+    align-self: center;
+    margin: 2% 0 17% 0;
+    width: 150px;  
   }  
 }
