@@ -124,11 +124,6 @@ nav {
   margin-top: 19px;
 }
 
-#port-without-header {
-  padding-left: 24px;
-  background-color: var(--projBackground);
-}
-
 .port-contenido {
   width: 100%;
   height: calc(100vh);
@@ -146,6 +141,11 @@ nav {
 
 #tit-port {
   max-width: 60%;
+}
+
+#port-without-header {
+  padding-left: 24px;
+  background-color: var(--projBackground);
 }
 
 #intro-text {
