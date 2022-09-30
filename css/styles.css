@@ -616,4 +616,45 @@ ul {
     font-size: 20px;
     line-height: 28px; 
   }
+
+  /* about section */
+  #about-sec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top-left-radius: 0;
+    border-top-right-radius: 200px;
+    padding-bottom: 9.86vw; /* 142px */
+    padding-top: 9.86vw; /* 142px */
+    padding-left: 9.86vw; /* 142px */
+    padding-right: 9.86vw; /* 142px */
+    row-gap: 10px;
+    column-gap: 50px;
+    justify-content: space-between;
+  }
+
+  .about-me {
+    width: 80%;
+  }
+  
+  .knowlodges-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* min-width: 250px; */
+  }
+  
+  #text-ab-me {
+    margin-right: 0;
+    margin-top: 20px;
+    /*min-width: 270px;*/
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px; 
+    width: 90%;
+  }
+  
+  .about-knowlodges {
+    width: 50%;
+  }  
 }
