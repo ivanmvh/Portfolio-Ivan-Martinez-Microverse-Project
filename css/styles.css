@@ -55,7 +55,7 @@ body {
 .logo {
   font-family: var(--projFont-1-Pop);
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 20px;
   text-align: center;
   color: var(--projectPurple);
@@ -556,10 +556,10 @@ ul {
   }
 
   nav {
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
 
   #id-menu-hamburger {
@@ -569,7 +569,8 @@ ul {
   .menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
+    column-gap: 32px;
   }
 
   .menu-option {
@@ -679,6 +680,7 @@ ul {
     font-weight: 700;
     line-height: 52px;
     text-align: left;
+    margin-top: 48px;
   }
 
   .project-data {
@@ -717,25 +719,26 @@ ul {
     padding-left: 9.86vw; /* 142px */
     padding-right: 9.86vw; /* 142px */
     row-gap: 10px;
-    column-gap: 50px;
+    column-gap: 37px;
     justify-content: space-between;
   }
 
   .about-me {
-    width: 80%;
+    width: 40%;
   }
 
   #text-ab-me {
     margin-right: 0;
+    margin-left: 0;
     margin-top: 20px;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    width: 90%;
+    width: 100%;
   }
 
   .about-knowlodges {
-    width: 50%;
+    width: 60%;
   }
 
   .knowlodges-section {
