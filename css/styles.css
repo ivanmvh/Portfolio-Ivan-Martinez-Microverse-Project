@@ -49,7 +49,7 @@ body {
   margin: 0;
 }
 
-  /* Mobile Header Section */
+/* Mobile Header Section */
 
 .logo {
   font-family: var(--projFont-1-Pop);
@@ -66,7 +66,7 @@ body {
   text-decoration: none !important;
   color: var(--projectPurple);
 }
- 
+
 .menu-hamburg {
   color: var(--projectPurple);
   width: 1fr;
@@ -107,7 +107,7 @@ nav {
   text-align: left;
 }
 
-  /* Mobile Portada Section */
+/* Mobile Portada Section */
 
 .sec-portada {
   background-color: var(--projBackground);
@@ -123,7 +123,7 @@ nav {
   text-align: left;
   margin-top: 19px;
 }
- 
+
 .port-contenido {
   width: 100%;
   height: calc(100vh);
@@ -131,7 +131,7 @@ nav {
   background-repeat: no-repeat;
   border-bottom-left-radius: 60px;
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -196,7 +196,7 @@ ul {
   padding: 0;
 }
 
-  /* Mobile Works Section */
+/* Mobile Works Section */
 
 #works {
   display: grid;
@@ -305,7 +305,7 @@ ul {
   margin-top: 20px;
 }
 
-  /* BUTTONS */
+/* BUTTONS */
 .project-btn,
 .resume-btn,
 .contact-btn {
@@ -330,7 +330,7 @@ ul {
   margin-left: 0;
   margin-bottom: 50px;
 }
-  
+
 .resume-btn:disabled,
 .project-btn:disabled,
 .contact-btn:disabled {
@@ -353,7 +353,7 @@ ul {
   font-weight: 700;
 }
 
-  /* about me section (init) */
+/* about me section (init) */
 
 #about-sec {
   background-color: var(--projBackground);
@@ -427,9 +427,9 @@ ul {
   margin-left: 10px;
 }
 
-  /* about me section (end) */
+/* about me section (end) */
 
-  /* form section (init) */
+/* form section (init) */
 
 .contact-background {
   background-color: var(--projectPurple);
@@ -524,7 +524,7 @@ ul {
   transform: scale(2);
 }
 
-  /* form section (end) */
+/* form section (end) */
 
 .for-mobile {
   display: block;
@@ -534,7 +534,7 @@ ul {
   display: none;
 }
 
-  /* DESKTOP VERSION */
+/* DESKTOP VERSION */
 
 @media screen and (min-width: 768px) {
   /* header section */
@@ -547,20 +547,20 @@ ul {
     padding-left: 155px;
     padding-right: 155px;
     margin-top: 0;
-  } 
-  
-  .logo {
-      margin-left: 0;
-      min-width: 76px;
   }
-  
+
+  .logo {
+    margin-left: 0;
+    min-width: 76px;
+  }
+
   nav {
     width: 40%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  
+
   #id-menu-hamburger {
     display: none;
   }
@@ -580,16 +580,16 @@ ul {
     list-style-type: none;
     color: var(--projText);
   }
-  
+
   /* portada section */
-  
+
   #port-without-header {
     /* En vez de usar valores absolutos en px es mejor usar valores
       proporcionales al ancvho del view port en este caso 1440 (vw).
       padding-left: 260px;
       padding-right: 260px;
       padding-bottom: 244px; */
- 
+
     padding-left: 18.47vw;
     padding-right: 18.47vw;
     padding-bottom: 14.94vw;
@@ -600,11 +600,11 @@ ul {
     background-position: center;
     background-size: cover;
   }
- 
+
   .port-contenido {
-      background-image: none;
-    }
- 
+    background-image: none;
+  }
+
   #tit-port {
     max-width: 100%;
     font-style: normal;
@@ -613,7 +613,7 @@ ul {
     line-height: 52px;
     margin-top: 288px;
   }
- 
+
   #intro-text-1 {
     margin-right: 0;
     margin-top: 20px;
@@ -622,9 +622,9 @@ ul {
     font-size: 20px;
     line-height: 28px;
   }
- 
-   /* works section */
-  
+
+  /* works section */
+
   #works {
     display: grid;
     justify-content: center;
@@ -637,7 +637,7 @@ ul {
     padding-left: 24px;
     padding-right: 24px;
   }
- 
+
   .project {
     border: 1px solid white;
     display: flex;
@@ -660,11 +660,11 @@ ul {
     margin: 24px;
     min-width: 400px;
   }
- 
+
   .flex-rev {
     flex-direction: row-reverse;
   }
-  
+
   .text-content {
     justify-content: flex-start;
     margin-left: 27px;
@@ -672,20 +672,20 @@ ul {
     margin-bottom: 100px;
     width: 50%;
   }
- 
+
   .project-title {
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
     text-align: left;
   }
- 
+
   .project-data {
     display: flex;
     justify-content: flex-start;
     column-gap: 10px;
   }
- 
+
   .project-data .bold {
     font-size: 18px;
     font-weight: 600;
@@ -693,7 +693,7 @@ ul {
     text-align: left;
     color: var(--worksBold);
   }
- 
+
   .project-data p {
     font-size: 18px;
     font-weight: 400;
@@ -702,9 +702,9 @@ ul {
     color: var(--worksLight);
     margin-top: 15px;
   }
- 
+
   /* about section */
- 
+
   #about-sec {
     display: flex;
     flex-direction: row;
@@ -723,7 +723,7 @@ ul {
   .about-me {
     width: 80%;
   }
- 
+
   #text-ab-me {
     margin-right: 0;
     margin-top: 20px;
@@ -732,15 +732,15 @@ ul {
     line-height: 28px;
     width: 90%;
   }
- 
+
   .about-knowlodges {
     width: 50%;
   }
- 
+
   .knowlodges-section {
     margin-top: 50px;
   }
- 
+
   .knowlodges-boxes {
     flex-direction: row;
     justify-content: flex-start;
@@ -750,12 +750,12 @@ ul {
     margin-top: 20px;
     margin-left: 0;
   }
- 
+
   #about .social-media-icons {
     column-gap: 25px;
     margin: 23px 30px;
   }
- 
+
   .knowlodge-box {
     flex-direction: column;
     flex-basis: 100%;
@@ -766,23 +766,23 @@ ul {
     height: 122px;
     margin-right: 2%;
   }
- 
+
   .knowlodge-box img {
     margin-left: 15px;
   }
- 
+
   .knolodgege-box > p {
     margin-left: 15px;
   }
- 
-  /* contact section */
+
+ /* contact section */
   #contact {
     background-image: url("../images/contact-img/contact-form-desk@2x.svg");
     padding-top: 142px;
     background-position: right;
     background-repeat: no-repeat;
   }
- 
+
   .contact-desc {
     font-weight: 400;
     font-size: 20px;
@@ -791,13 +791,13 @@ ul {
     padding-right: 30.27vw; /* 436px */
     padding-left: 30.27vw; /* 436px */
   }
- 
+
   .form-container {
     padding-right: 33.51vw; /* 497px */
     padding-left: 33.51vw; /* 497px */
     margin-top: 15px;
   }
- 
+
   #name,
   #email,
   #message {
@@ -805,17 +805,17 @@ ul {
     margin-left: 0;
     margin-right: 0;
   }
- 
+
   .form-container button {
     align-self: center;
     margin: 2% 0 17% 0;
     width: 150px;
   }
- 
+
   .for-mobile {
     display: none;
   }
- 
+
   .for-desktop {
     display: block;
   }
