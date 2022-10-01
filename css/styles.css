@@ -16,6 +16,7 @@
   --projPlaceHolderColor: #b3bbb5;
 
   /* works variables */
+
   --worksBold: #344563;
   --worksLight: #7a869a;
   --gridBackground: #f7f7f9;
@@ -24,7 +25,7 @@
   --knowlodgeColor: #f7f7f9;
   --pressedButtonColor: #2230d2;
   --contactText: #f7f7f9;
- }
+}
 
 * {
   font-family: var(--projFont-1-Pop);
