@@ -33,7 +33,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: var(--projFont-1-Pop);
+  font-family: var(--projFont-1-Pop);  
 }
 
 html {
@@ -124,7 +124,11 @@ nav {
 
 .title:hover {
   transform: rotate(45deg);
+<<<<<<< HEAD
 }
+=======
+}  
+>>>>>>> BR-2-ANIMATIONS-TESTING
 
 #port-without-header {
   padding-left: 24px;
@@ -229,6 +233,11 @@ ul {
   box-shadow: 1px 1px 55px -23px rgba(0, 0, 0, 0.75);
 }
 
+.project:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
 .text-content {
   display: flex;
   flex-direction: column;
@@ -280,8 +289,6 @@ ul {
 
 .project:hover {
   border: 1px solid var(--projectPurple);
-  transform: scale(1.2);
-  cursor: pointer;
 }
 
 .buttons-flex {
@@ -436,7 +443,7 @@ ul {
 /* form section (init) */
 
 .contact-background {
-  background-color: var(--projectPurple);
+  background-color: var(--projectPurple); 
   background-size: cover;
   border-top-left-radius: 60px;
   padding-top: 20px;
