@@ -124,11 +124,7 @@ nav {
 
 .title:hover {
   transform: rotate(45deg);
-<<<<<<< HEAD
 }
-=======
-}  
->>>>>>> BR-2-ANIMATIONS-TESTING
 
 #port-without-header {
   padding-left: 24px;
@@ -234,6 +230,7 @@ ul {
 }
 
 .project:hover {
+  border: 1px solid var(--projectPurple);
   transform: scale(1.2);
   cursor: pointer;
 }
@@ -285,10 +282,6 @@ ul {
   height: auto;
   width: 100%;
   min-width: 250px;
-}
-
-.project:hover {
-  border: 1px solid var(--projectPurple);
 }
 
 .buttons-flex {
