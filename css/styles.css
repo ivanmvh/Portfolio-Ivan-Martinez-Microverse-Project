@@ -33,7 +33,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: var(--projFont-1-Pop);  
+  font-family: var(--projFont-1-Pop);
 }
 
 html {
@@ -436,7 +436,7 @@ ul {
 /* form section (init) */
 
 .contact-background {
-  background-color: var(--projectPurple); 
+  background-color: var(--projectPurple);
   background-size: cover;
   border-top-left-radius: 60px;
   padding-top: 20px;
