@@ -82,6 +82,19 @@ header {
   margin-top: 10px;
 }
 
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 14px 45px -4px rgba(0, 0, 0, 0.17);
+  -webkit-box-shadow: 0 14px 45px -4px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0 14px 45px -4px rgba(0, 0, 0, 0.17);
+  z-index: 2;
+}
+
 nav {
   margin-right: 0;
   display: flex !important;
@@ -96,6 +109,72 @@ nav {
   width: 100%;
 }
 
+  /* traido de ofm - related to js mobile menu */
+
+.menu-options {
+  margin: 0 !important;
+  display: none;
+}
+  
+.fixed {
+  position: fixed;
+  display: block !important;
+  right: 28px;
+  top: 10px;
+}
+  
+.mobile-menu {
+  display: none;
+  list-style: none;
+}
+
+.open {
+  display: block;
+  padding-left: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0%;
+  overflow: hidden;
+  background-color: #396df2;
+  opacity: 0.9;
+  z-index: 5;
+}
+  
+.blur {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+  
+.open-menu {
+  z-index: 6;
+}
+  
+.close-menu {
+  z-index: 7;
+}
+  
+.close {
+  top: 20px;
+}
+  
+.open li:first-child {
+  margin-top: 100px;
+}
+  
+.open li a {
+  display: inline-block;
+  font-size: 32px;
+  color: white;
+  font-weight: 500;
+  padding-block: 35px;
+}
+
+/* traido de ofm - related to js mobile menu (end) */
+
+/* Mobile Portada Section */
+
 .parrafo {
   color: var(--projText);
   font-family: var(--projFont-1-Pop);
@@ -107,8 +186,6 @@ nav {
   margin-top: 20px;
   text-align: left;
 }
-
-/* Mobile Portada Section */
 
 .sec-portada {
   background-color: var(--projBackground);
@@ -539,6 +616,8 @@ ul {
 
 @media screen and (min-width: 768px) {
   /* header section */
+  
+  /*
   header {
     width: 100%;
     height: 72px;
@@ -549,6 +628,7 @@ ul {
     padding-right: 155px;
     margin-top: 0;
   }
+  */
 
   .logo {
     margin-left: 0;
@@ -583,6 +663,66 @@ ul {
     color: var(--projText);
   }
 
+  /* traido de ofm (start) */
+  .header {
+    padding-top: 10px;
+    position: fixed !important;
+  }
+
+  /*
+  nav {
+    margin: 0;
+    min-width: 265px;
+  }
+  
+  */
+
+.desktop-menu {
+    display: inline;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 30px;
+  }
+
+  .menu-options {
+    min-width: 266px;
+    margin: 0 !important;
+    display: block;
+  }
+
+  li > a:link,
+  li > a:visited,
+  li > a:hover {
+    color: var(--worksBold) !important;
+    text-decoration: none !important;
+  }
+
+  .header > * {
+    margin: 0 15%;
+  }
+
+  .logo {
+    font-size: 24px;
+    min-width: 100.6px;
+    animation-duration: 3s;
+  }
+
+  span {
+    transition: 1s;
+  }
+
+  span:hover {
+    font-size: larger;
+    color: var(--projectPurple);
+  }
+
+  /* ------ traido de ofm  (end) */
+  
+  
   /* portada section */
 
   #port-without-header {
