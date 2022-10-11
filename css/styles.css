@@ -617,10 +617,15 @@ ul {
 @media screen and (min-width: 768px) {
   /* header section */
 
+  
+  /*
+  
   .logo {
     margin-left: 0;
     min-width: 76px;
   }
+  
+  */
 
   nav {
     width: 50%;
@@ -639,7 +644,8 @@ ul {
     justify-content: flex-end;
     column-gap: 32px;
   }
-  .open-menu{
+
+  .open-menu {
     display: none;
   }
 
@@ -659,15 +665,7 @@ ul {
     position: fixed !important;
   }
 
-  /*
-  nav {
-    margin: 0;
-    min-width: 265px;
-  }
-  
-  */
-
-.desktop-menu {
+  .desktop-menu {
     display: inline;
     text-decoration: none;
     font-family: Poppins, sans-serif;
@@ -711,8 +709,7 @@ ul {
   }
 
   /* ------ traido de ofm  (end) */
-  
-  
+
   /* portada section */
 
   #port-without-header {
