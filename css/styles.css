@@ -68,6 +68,8 @@ body {
   color: var(--projectPurple);
 }
 
+/*
+
 .menu-hamburg {
   color: var(--projectPurple);
   width: 1fr;
@@ -81,6 +83,8 @@ header {
   justify-content: space-between;
   margin-top: 10px;
 }
+
+*/
 
 .header {
   width: 100%;
@@ -101,6 +105,8 @@ nav {
   isolation: isolate;
 }
 
+/*
+
 .menu {
   display: none;
   flex-direction: column;
@@ -108,6 +114,8 @@ nav {
   justify-content: flex-start;
   width: 100%;
 }
+
+*/
 
 /* traido de ofm - related to js mobile menu */
 
@@ -149,6 +157,7 @@ nav {
 
 .open-menu {
   z-index: 6;
+  margin-right: 36px;
 }
 
 .close-menu {
@@ -624,6 +633,8 @@ ul {
     justify-content: flex-end;
   }
 
+  /*
+
   #id-menu-hamburger {
     display: none;
   }
@@ -634,7 +645,9 @@ ul {
     justify-content: flex-end;
     column-gap: 32px;
   }
-
+  
+  */
+  
   .open-menu {
     display: none;
   }
