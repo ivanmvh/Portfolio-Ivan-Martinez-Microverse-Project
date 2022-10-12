@@ -13,20 +13,28 @@
 </head>
 <body>
   <!-- portada section (init) -->
-   <section class="sec-portada">
-      <header> 
+  <section class="sec-portada">
+    <div class="mobile-menu">
+      <li class="desktop-menu"><a href="#works">Portfolio</a></li>
+      <li class="desktop-menu"><a href="#about-sec">About</a></li>
+      <li class="desktop-menu"><a href="#contact">Contact</a></li>
+      <div class="close-menu text-white" style="visibility: hidden;"><img src="./images/first-page-img/close-mobile-menu.svg" class="close fixed" alt="close menu image"></div>
+    </div>
+    <header>
+      <div class="header">
         <a href="./index.html" class="logo">My Logo</a>
-         <nav>
-            <i id="id-menu-hamburger" class="menu-hamburg fa fa-bars"></i>
-            <ul class="menu">
-               <li class="menu-option">Portfolio</li>
-               <li class="menu-option">About</li>
-               <li class="menu-option">Contact</li>
-            </ul>
-         </nav>
-      </header>
-      
-      <section id="port-without-header">
+        <nav>
+          <ul class="menu-options">
+            <li class="desktop-menu"><a href="#works">Portfolio</a></li>
+            <li class="desktop-menu"><a href="#about-sec">About</a></li>
+            <li class="desktop-menu"><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="open-menu text-white"><img src="./images/first-page-img/hamburger-menu.svg" class="hamburger" alt="open menu image" height="24" width="18"></div>
+        </nav>
+      </div>
+    </header>
+       
+    <section id="port-without-header">
          <div class="port-contenido">
             <h1 id="tit-port" class="title">I’m Ivan <br> Glad to see you!</h1>   
             <p id="intro-text-1" class="parrafo">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience!  If you like what you see and have a project you need coded, don’t hestiate to contact me.
@@ -257,5 +265,8 @@
    </div>
   </footer>
   <!-- contact section (end) -->
+
+  <script src="./main.js"></script>
+
 </body>
 </html>
