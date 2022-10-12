@@ -103,8 +103,8 @@ nav {
 .menu {
   display: none;
   flex-direction: column;
-  align-items:flex-start;
-  justify-content:flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
   width: 100%;
 }
 
@@ -137,8 +137,11 @@ nav {
   height: 0%;
   overflow: hidden;
   background-color: var(--projectPurple);
-  opacity: 0.9;
+  opacity: 99%;
   z-index: 5;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .blur {
@@ -169,7 +172,7 @@ nav {
   color: white;
   font-weight: 600;
   line-height: 44px;
-  padding-block: 35px;
+  padding-bottom: 40px;
 }
 
 /* traido de ofm - related to js mobile menu (end) */

@@ -2,9 +2,6 @@ const showMobileMenu = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('.mobile-menu');
 const crossDiv = document.querySelector('.close-menu');
 
-// On icon click:
-//  1) Hide the icon
-//  2) Show the mobile-menu  (open class)
 showMobileMenu.addEventListener('click', () => {
   mobileMenu.classList.toggle('open');
   mobileMenu.style.display = 'block';
@@ -40,5 +37,3 @@ mobileMenu.addEventListener('click', () => {
   showMobileMenu.style.visibility = 'visible';
   mobileMenu.classList.remove('open');
 });
-
-/* modal */
