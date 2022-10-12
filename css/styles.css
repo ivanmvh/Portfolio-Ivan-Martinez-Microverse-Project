@@ -108,7 +108,7 @@ nav {
   width: 100%;
 }
 
-/* traido de ofm - related to js mobile menu */
+/* brought from ofm - related to js mobile menu */
 
 .menu-options {
   margin: 0 !important;
@@ -175,7 +175,7 @@ nav {
   padding-bottom: 40px;
 }
 
-/* traido de ofm - related to js mobile menu (end) */
+/* brought from ofm - related to js mobile menu (end) */
 
 /* Mobile Portada Section */
 
@@ -653,7 +653,7 @@ ul {
     color: var(--projText);
   }
 
-  /* traido de ofm (start) */
+  /* brought from ofm (start) */
   .header {
     padding-top: 10px;
     position: fixed !important;
@@ -704,13 +704,13 @@ ul {
     color: var(--projectPurple);
   }
 
-  /* ------ traido de ofm  (end) */
+  /* ------ brought from ofm  (end) */
 
   /* portada section */
 
   #port-without-header {
-    /* En vez de usar valores absolutos en px es mejor usar valores
-      proporcionales al ancvho del view port en este caso 1440 (vw).
+    /* Instead of using absolute values in px it is better to use values
+       proportional to the width of the view port in this case 1440 (vw).
       padding-left: 260px;
       padding-right: 260px;
       padding-bottom: 244px; */
