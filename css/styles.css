@@ -193,6 +193,7 @@ nav {
 
 .sec-portada {
   background-color: var(--projBackground);
+  border-bottom-left-radius: 100px;
 }
 
 .title {
@@ -211,7 +212,6 @@ nav {
   height: calc(100vh);
   background-image: url("../images/first-page-img/first-page-bg-mobile.svg");
   background-repeat: no-repeat;
-  border-bottom-left-radius: 60px;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -323,6 +323,7 @@ ul {
   font-weight: 700;
   line-height: 44px;
   text-align: left;
+  color: var(--projTitleText);
 }
 
 .mobile-card {
@@ -724,7 +725,7 @@ ul {
     background-color: var(--projBackground);
     background-image: url("../images/first-page-img/first-page-bg-desktop.svg");
     background-repeat: no-repeat;
-    border-bottom-left-radius: 60px;
+    border-bottom-left-radius: 100px;
     background-position: center;
     background-size: cover;
   }
@@ -814,6 +815,7 @@ ul {
     line-height: 52px;
     text-align: left;
     margin-top: 48px;
+    
   }
 
   .project-data {
@@ -992,6 +994,10 @@ ul {
 
 .popup-container .desc {
   padding-bottom: 16px;
+  color: var(--projText); 
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400px;
 }
 
 .popup-header {
