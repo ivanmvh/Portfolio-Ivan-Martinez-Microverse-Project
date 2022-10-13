@@ -155,7 +155,6 @@ mobileMenu.addEventListener('click', () => {
   mobileMenu.classList.remove('open');
 });
 
-
 const worksSection = document.querySelector('#works');
 
 for (let i = 0; i < projectsArray.length; i += 1) {
