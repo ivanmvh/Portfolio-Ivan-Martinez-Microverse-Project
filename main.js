@@ -155,3 +155,53 @@ const projectsArray = [
   },
 ];
 
+const worksSection = document.querySelector('#works');
+
+for (let i = 0; i < projectsArray.length; i += 1) {
+  worksSection.innerHTML += `<div class="project">
+  
+  <img src="${projectsArray[i].image}" alt="Project image" class="project-image for-mobile" loading="lazy" width="641.2" height="478.183">
+  <img src="${projectsArray[i].desktopImage}" alt="Project image" class="project-image for-desktop side-${projectsArray[i].id % 2}" loading="lazy" width="969" height="797">
+  
+  <div class="text-content">  
+    <h3 class="project-title for-mobile">${projectsArray[i].title}</h3>
+    <h3 class="project-title for-desktop">${projectsArray[i].titleDesktop}</h3>
+    
+    <div class="project-data">
+      <!--for-mobile-->
+      <p class="bold for-mobile">${projectsArray[i].featured[0]}</p>
+      <p class="middot for-mobile">&bull;</p>
+      <p class="for-mobile">${projectsArray[i].featured[1]}</p>
+      <p class="middot for-mobile">&bull;</p>
+      <p class="for-mobile">${projectsArray[i].featured[2]}</p>
+
+      <!--for-desktop-->
+      <p class="bold for-desktop">${projectsArray[i].featuredDesktop[0]}</p>
+      <p class="middot for-desktop">&bull;</p>
+      <p class="for-desktop">${projectsArray[i].featuredDesktop[1]}</p>
+      <p class="middot for-desktop">&bull;</p>
+      <p class="for-desktop">${projectsArray[i].featuredDesktop[2]}</p>
+    </div>
+    
+    <p class="parrafo project-descr for-mobile">${projectsArray[i].mobileDescr}</p>
+    <p class="parrafo project-descr for-desktop">${projectsArray[i].desktopDescr}</p>
+    
+    <ul class="buttons-flex">
+      <!--for-mobile-->
+      <li class="li-btn for-mobile">${projectsArray[i].technologies[0]}</li>
+      <li class="li-btn for-mobile">${projectsArray[i].technologies[1]}</li>
+      <li class="li-btn for-mobile">${projectsArray[i].technologies[2]}</li>
+
+      <!--for-desktop-->
+      <li class="li-btn for-desktop">${projectsArray[i].technologiesDesktop[0]}</li>
+      <li class="li-btn for-desktop">${projectsArray[i].technologiesDesktop[1]}</li>
+      <li class="li-btn for-desktop">${projectsArray[i].technologiesDesktop[2]}</li>
+      <li class="li-btn for-desktop">${projectsArray[i].technologiesDesktop[3]}</li>
+    </ul>
+    <button id=${projectsArray[i].id - 1} class="project-btn">See Project</button>
+  </div>
+</div> 
+  `;
+}
+
+
