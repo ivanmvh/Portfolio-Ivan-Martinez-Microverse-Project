@@ -277,4 +277,3 @@ for (let index = 0; index < popupButton.length; index += 1) {
     popupCont.addEventListener('click', close);
   });
 }
-
