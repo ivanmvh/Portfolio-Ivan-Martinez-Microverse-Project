@@ -815,7 +815,6 @@ ul {
     line-height: 52px;
     text-align: left;
     margin-top: 48px;
-    
   }
 
   .project-data {
@@ -994,10 +993,10 @@ ul {
 
 .popup-container .desc {
   padding-bottom: 16px;
-  color: var(--projText); 
+  color: var(--projText);
   font-size: 15px;
   line-height: 24px;
-  font-weight: 400px;
+  font-weight: 400;
 }
 
 .popup-header {
