@@ -44,7 +44,7 @@ const projectsArray = [
     title: 'Tonic',
     titleDesktop: 'Tonic',
     mobileDescr:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'A daily selection of privately personalized reads required.',
     desktopDescr:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     longDescr:
@@ -102,7 +102,7 @@ const projectsArray = [
     title: 'Tonic',
     titleDesktop: 'Facebook 360',
     mobileDescr:
-      'This is a rocket booking and mission joining application.',
+      'This is a rocket booking and mission joining application sasas as.',
     desktopDescr:
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     longDescr:
@@ -130,7 +130,7 @@ const projectsArray = [
     id: '4',
     title: 'Multi-Post Stories',
     titleDesktop: 'Uber navigation',
-    mobileDescr: 'MyBudget is a budget manager application.',
+    mobileDescr: 'MyBudget is a budget manager application manager applicat..',
     desktopDescr:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     longDescr:
@@ -160,7 +160,7 @@ const worksSection = document.querySelector('#works');
 for (let i = 0; i < projectsArray.length; i += 1) {
   worksSection.innerHTML += `<div class="project">
   
-  <img src="${projectsArray[i].image}" alt="Project image" class="project-image for-mobile" loading="lazy" width="641.2" height="478.183">
+  <img src="${projectsArray[i].image}" alt="Project image" class="project-image for-mobile"  width="641.2" height="478.183">
   <img src="${projectsArray[i].desktopImage}" alt="Project image" class="project-image for-desktop side-${projectsArray[i].id % 2}" loading="lazy" width="969" height="797">
   
   <div class="text-content">  
@@ -222,7 +222,7 @@ for (let index = 0; index < popupButton.length; index += 1) {
           <div class="popup-dialog">
             <div class="popup-header">
               <div>
-                <h3 class="popup-title">${projectsArray[pos].title}</h3>
+                <h3 class="project-title">${projectsArray[pos].title}</h3>
                 <div class="project-data" style="margin-bottom= 150px;">
                   <p class="bold for-mobile">${projectsArray[pos].featured[0]}</p>
                   <p class="middot for-mobile">•</p>
@@ -245,7 +245,7 @@ for (let index = 0; index < popupButton.length; index += 1) {
                 <img class="for-desktop" src="${projectsArray[pos].desktopImage}" alt="project image" loading="lazy" width="969" height="797">
               </div>
               <div class="description">
-                <p class="desc for-mobile">${projectsArray[pos].mobileDescr}</p>
+                <p class="desc for-mobile">${projectsArray[pos].longDescr}</p>
                 <p class="desc for-desktop">${projectsArray[pos].longDescr}</p>
                 <div class="tech-box">
                   <div class="tech">
