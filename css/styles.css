@@ -1064,10 +1064,10 @@ ul {
     width: 230px;
   }
 
-  .live,
-  .source {
-    min-width: 160px;
-    justify-content: center;
+     .live,
+     .source {
+    min-width:160px;
+    justify-content:center;
     gap: 20px;
     width: fit-content;
   }   
