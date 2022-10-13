@@ -829,6 +829,18 @@ ul {
     margin-top: 15px;
   }
 
+  .side-0 {
+    order: 1;
+    margin-left: 20px;
+  }
+
+  /*
+  .side-1 {
+    order: 0;
+    margin-left: 20px;
+  }
+  */
+
   /* about section */
 
   #about-sec {
@@ -948,8 +960,7 @@ ul {
   }
 }
 
-/* Popup-modal styles */
-
+/* Popup styles */
 .modal-container {
   display: none;
   position: fixed;
