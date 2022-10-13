@@ -108,8 +108,6 @@ nav {
   width: 100%;
 }
 
-/* brought from ofm - related to js mobile menu */
-
 .menu-options {
   margin: 0 !important;
   display: none;
@@ -174,8 +172,6 @@ nav {
   line-height: 44px;
   padding-bottom: 40px;
 }
-
-/* brought from ofm - related to js mobile menu (end) */
 
 /* Mobile Portada Section */
 
@@ -656,11 +652,9 @@ ul {
     color: var(--projText);
   }
 
-  /* brought from ofm (start) */
   .header {
     padding-top: 10px;
 
-    /* position: fixed !important; */
   }
 
   .desktop-menu {
@@ -708,8 +702,6 @@ ul {
     color: var(--projectPurple);
   }
 
-  /* ------ brought from ofm  (end) */
-
   /* portada section */
 
   #port-without-header {
@@ -756,23 +748,6 @@ ul {
   #let-con-port {
     margin-bottom: 12px;
   }
-
-  /* works section */
-
-  /*
-  #works {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    row-gap: 140px;
-    background-color: var(--gridBackground);
-    grid-template-columns: auto;
-    padding-top: 140px;
-    padding-bottom: 140px;
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-  */
 
   .project {
     border: 1px solid white;
