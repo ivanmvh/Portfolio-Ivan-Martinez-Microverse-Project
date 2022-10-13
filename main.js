@@ -1,43 +1,3 @@
-const showMobileMenu = document.querySelector('.hamburger');
-const mobileMenu = document.querySelector('.mobile-menu');
-const crossDiv = document.querySelector('.close-menu');
-
-showMobileMenu.addEventListener('click', () => {
-  mobileMenu.classList.toggle('open');
-  mobileMenu.style.display = 'block';
-  mobileMenu.style.height = '100vh';
-  showMobileMenu.style.visibility = 'hidden';
-  crossDiv.style.visibility = 'visible';
-});
-
-crossDiv.addEventListener('click', () => {
-  mobileMenu.classList.remove('open');
-  mobileMenu.style.height = '0';
-  showMobileMenu.style.visibility = 'visible';
-  crossDiv.style.visibility = 'hidden';
-  mobileMenu.style.height = '0';
-});
-
-window.addEventListener('resize', () => {
-  if (window.innerWidth < 768) {
-    mobileMenu.classList.remove('open');
-    mobileMenu.style.display = 'none';
-    crossDiv.style.visibility = 'hidden';
-    showMobileMenu.style.visibility = 'visible';
-  } else {
-    showMobileMenu.style.visibility = 'hidden';
-    mobileMenu.style.height = 'auto';
-  }
-});
-
-mobileMenu.addEventListener('click', () => {
-  crossDiv.style.visibility = 'hidden';
-  mobileMenu.style.display = 'none';
-  mobileMenu.style.height = '0';
-  showMobileMenu.style.visibility = 'visible';
-  mobileMenu.classList.remove('open');
-});
-
 const projectsArray = [
   {
     id: '1',
@@ -155,6 +115,47 @@ const projectsArray = [
   },
 ];
 
+const showMobileMenu = document.querySelector('.hamburger');
+const mobileMenu = document.querySelector('.mobile-menu');
+const closeMobileMenu = document.querySelector('.close-menu');
+
+showMobileMenu.addEventListener('click', () => {
+  mobileMenu.classList.toggle('open');
+  mobileMenu.style.display = 'block';
+  mobileMenu.style.height = '100vh';
+  showMobileMenu.style.visibility = 'hidden';
+  closeMobileMenu.style.visibility = 'visible';
+});
+
+closeMobileMenu.addEventListener('click', () => {
+  mobileMenu.classList.remove('open');
+  mobileMenu.style.height = '0';
+  showMobileMenu.style.visibility = 'visible';
+  closeMobileMenu.style.visibility = 'hidden';
+  mobileMenu.style.height = '0';
+});
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth < 768) {
+    mobileMenu.classList.remove('open');
+    mobileMenu.style.display = 'none';
+    closeMobileMenu.style.visibility = 'hidden';
+    showMobileMenu.style.visibility = 'visible';
+  } else {
+    showMobileMenu.style.visibility = 'hidden';
+    mobileMenu.style.height = 'auto';
+  }
+});
+
+mobileMenu.addEventListener('click', () => {
+  closeMobileMenu.style.visibility = 'hidden';
+  mobileMenu.style.display = 'none';
+  mobileMenu.style.height = '0';
+  showMobileMenu.style.visibility = 'visible';
+  mobileMenu.classList.remove('open');
+});
+
+
 const worksSection = document.querySelector('#works');
 
 for (let i = 0; i < projectsArray.length; i += 1) {
@@ -245,8 +246,8 @@ for (let index = 0; index < modalButton.length; index += 1) {
                 <img class="for-desktop" src="${projectsArray[pos].desktopImage}" alt="project image" loading="lazy" width="969" height="797">
               </div>
               <div class="description">
-                <p class="desc for-mobile">${projectsArray[pos].mobileDescription}</p>
-                <p class="desc for-desktop">${projectsArray[pos].longDescription}</p>
+                <p class="desc for-mobile">${projectsArray[pos].mobileDescr}</p>
+                <p class="desc for-desktop">${projectsArray[pos].longDescr}</p>
                 <div class="tech-box">
                   <div class="tech">
                     <ul class="buttons-flex" style="margin-bottom:30px">

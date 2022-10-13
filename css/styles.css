@@ -1030,15 +1030,15 @@ ul {
 }
 
 @media screen and (min-width: 40em) {
-  .description {
-    flex-direction: row;
-  }
+  .description { 
+    flex-direction: row; 
+  }    
 
-  .desc {
-    flex: 60%;
-    padding: 16px 20px 70px;
+  .desc {   
+    flex:60%;   
+    padding: 16px 20px 70px; 
   }
-
+ 
   .source-box {
     width: 350px;
     margin-top: 10px;
@@ -1051,7 +1051,7 @@ ul {
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
-    text-align: center;
+    text-align: center;  
   }
 
   .modal-container .source-box {
