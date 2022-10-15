@@ -305,12 +305,14 @@ ul {
   transition: 1s ease;
   transition-delay: 0.5s;
   box-shadow: 1px 1px 55px -23px rgba(0, 0, 0, 0.75);
+  width: 100%;
 }
 
 .text-content {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  width: 100%;
 }
 
 .project-title {
