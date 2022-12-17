@@ -41,6 +41,35 @@ optionsMobileMenu.addEventListener('click', () => {
 const projectsArray = [
   {
     id: '1',
+    title: 'Capstone Project',
+    titleDesktop: 'Capstone Project',
+    mobileDescr:
+    'In this capstone project I build a webpage based on a template of the site Behance. The website is about a Tango Festival.',
+    desktopDescr:
+    'In this capstone project I build a webpage based on a template of the site Behance. The website is about a Tango Festival.',
+    longDescr:
+    'In this capstone project I build a webpage based on a template of the site Behance. The website is about a Tango Festival',
+    featured: ['Tango', 'Festival', 2022],
+    featuredDesktop: ['Canopy', 'Back End Dev', 2015],
+    image: './images/work-sec-img/tango.png',
+    desktopImage: './images/work-sec-img/for-desktop/tango.png',
+    side: 'left-side',
+    technologies: ['html', 'css', 'javascript'],
+    technologiesDesktop: ['html', 'css', 'ruby on rails', 'javascript'],
+    technologiesPopup: [
+      'html',
+      'css',
+      'javascript',
+      'github',
+      'ruby',
+      'bootstraps',
+    ],
+    liveURL: 'https://ivanmvh.github.io/capstone-project-mod1-ivanmvh/', 
+    sourceURL: 'https://github.com/ivanmvh/capstone-project-mod1-ivanmvh',
+  },
+
+  {
+    id: '1',
     title: 'Tonic',
     titleDesktop: 'Tonic',
     mobileDescr:

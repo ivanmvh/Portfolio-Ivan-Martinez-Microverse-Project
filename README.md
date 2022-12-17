@@ -18,8 +18,8 @@ Properties and values of many of the properties in the css file has been extract
 
 ## Live Demo (if available)
 
-You can check out the live version of my Portfolio with this [link.](https://ivanmvh.github.io/Portfolio-Ivan-Martinez-Microverse-Project/
-)
+You can check out the live version of my Portfolio here:
+[link.](https://ivanmvh.github.io/Portfolio-Ivan-Martinez-Microverse-Project/
 
 ## Author
 
