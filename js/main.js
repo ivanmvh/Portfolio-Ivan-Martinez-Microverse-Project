@@ -65,7 +65,7 @@ const projectsArray = [
       'bootstraps',
     ],
     liveURL: 'https://ivanmvh.github.io/capstone-project-mod1-ivanmvh/', 
-    sourceURL: 'https://github.com/ivanmvh/capstone-project-mod1-ivanmvh',
+    sourceURL: 'https://github.com/ivanmvh/capstone-project-mod1-ivanmvh/',
   },
 
   {
