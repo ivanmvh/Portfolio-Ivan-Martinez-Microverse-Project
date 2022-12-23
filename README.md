@@ -2,9 +2,14 @@
 
 # Porfolio Project 
 
-Design portfolio app based in a figma template. 
-Skeleton design mobile web page in html and css based on a figma template.
-Properties and values of many of the properties in the css file has been extracted from the figma template.
+This is a portfolio simulation where in every stage of the project will be added media queries designs to make the project fully responsive. The technologies used are: Figma, linters, Git, HTML, CSS, and Linux terminal.
+
+The main goals of this project are:
+
+- Understand how to parse a Figma design to create a UI.
+- Flexbox to place elements in the page.
+- Build a personal portfolio site.
+- Use images and backgrounds to enhance the look of the website.
 
 ## Built With
 
@@ -13,13 +18,11 @@ Properties and values of many of the properties in the css file has been extract
 - SCM extension Visual Studio Code
 - GITHUB Desktop
 - Figma template
-- Linter: In this project has installed Linter to check HTML and CSS.
-  In order to work Linter we had installed the folder and file:  .github\workflows and the file linters.yml
+- Linters: In this project has installed Linter to check HTML and CSS.
 
-## Live Demo (if available)
+## Live Demo 
 
-You can check out the live version of my Portfolio here:
-[link.](https://ivanmvh.github.io/Portfolio-Ivan-Martinez-Microverse-Project/
+[You can check out the live version of my Portfolio here:](https://ivanmvh.github.io/Portfolio-Ivan-Martinez-Microverse-Project/
 
 ## Author
 
