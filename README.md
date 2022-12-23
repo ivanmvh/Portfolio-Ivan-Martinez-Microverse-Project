@@ -22,7 +22,7 @@ The main goals of this project are:
 
 ## Live Demo 
 
-[You can check out the live version of my Portfolio here:](https://ivanmvh.github.io/Portfolio-Ivan-Martinez-Microverse-Project/
+[You can check out the live version of my Portfolio here:](https://ivanmvh.github.io/Portfolio-Ivan-Martinez-Microverse-Project/)
 
 ## Author
 
